@@ -1,0 +1,73 @@
+{
+    "frontend": [
+      {
+        "id": "1",
+        "src": "./img/html.png",
+        "title": "HTML",
+        "description": "HTML is the standard markup language for creating Web pages."
+      },
+      {
+        "id": "2",
+        "src": "./img/css.png",
+        "title": "CSS",
+        "description": "CSS is the language we use to style a Web page."
+      },
+      {
+        "id": "3",
+        "src": "./img/react.png",
+        "title": "React.js",
+        "description": "ReactJS is JavaScript library used for building reusable UI components."
+      },
+      {
+        "id": "4",
+        "src": "./img/nextjs.png",
+        "title": "Next.js",
+        "description": "Next.js enables you to create full-stack Web applications by extending the latest React features."
+      }
+    ],
+    "backend": [
+        {
+          "id": "1",
+          "src": "./img/Firebase.png",
+          "title": "FiseBase",
+          "description": "Firebase is an app development platform that helps you build and grow apps and games users love."
+        },
+        {
+          "id": "2",
+          "src": "./img/nodejs.png",
+          "title": "Node.js",
+          "description": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications."
+        },
+        {
+          "id": "3",
+          "src": "./img/expressjs.png",
+          "title": "Express.js",
+          "description": "Express JS is a Node.js framework designed to build API's web applications cross-platform mobile apps quickly and make node js easy."
+        },
+        {
+          "id": "4",
+          "src": "./img/mongo.png",
+          "title": "Mongo DB",
+          "description": "MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need."
+        }
+      ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/LitLibrary.png",
+        "title": "LitLibrary",
+        "description": " website that specializes in selling books for bookworms like myself.",
+        "link": "View In Github",
+        "connect" : "https://github.com/shwet-aaa/LitLibrary"
+      },
+      {
+        "id": "2",
+        "src": "./img/FRP.png",
+        "title": "Faculty Recruitment Portal",
+        "description": "Precise and Hassle-Free Recruitment",
+        "link": "View In Github",
+        "connect" : "https://github.com/shwet-aaa/FACULTY-RECRUITMENT-PORTAL"
+      }
+    
+    ]
+  }
