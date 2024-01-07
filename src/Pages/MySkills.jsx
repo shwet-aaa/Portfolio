@@ -8,7 +8,7 @@ export default function MySkills() {
           <h2 className="skills--section--heading">My Expertise</h2>
         </div>
         
-        <h2>Frontend</h2>
+        <h2 className='skills--heading2'>Frontend</h2>
         <div className="skills--section--container">
           {data?.frontend?.map((item, index) => (
             <div key={index} className="skills--section--card">
@@ -22,7 +22,7 @@ export default function MySkills() {
             </div>
           ))}
         </div>
-        <h2>Backend</h2>
+        <h2 className='skills--heading2'>Backend</h2>
 
         <div className="skills--section--container">
           {data?.backend?.map((item, index) => (

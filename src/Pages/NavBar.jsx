@@ -35,6 +35,7 @@ return (
    
 
      <nav className={`navbar ${navActive ? "active" : ""}`}>
+      <div className="image"> Shweta </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}

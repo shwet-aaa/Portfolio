@@ -56,7 +56,7 @@
         "id": "1",
         "src": "./img/LitLibrary.png",
         "title": "LitLibrary",
-        "description": " website that specializes in selling books for bookworms like myself.",
+        "description": " Website that specializes in selling books for bookworms like myself.",
         "link": "View In Github",
         "connect" : "https://github.com/shwet-aaa/LitLibrary"
       },
@@ -64,7 +64,7 @@
         "id": "2",
         "src": "./img/FRP.png",
         "title": "Faculty Recruitment Portal",
-        "description": "Precise and Hassle-Free Recruitment",
+        "description": "Precise and Hassle-Free Recruitment.",
         "link": "View In Github",
         "connect" : "https://github.com/shwet-aaa/FACULTY-RECRUITMENT-PORTAL"
       }

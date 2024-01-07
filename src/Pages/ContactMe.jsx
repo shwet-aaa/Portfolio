@@ -1,7 +1,8 @@
 import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2';
 export default function ContactMe() {
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs.sendForm('service_9xc1gpr', 'template_bg52oy5', e.target, 'Z83lrT8wPuGVRL8HX')
     .then((result) => {
@@ -9,16 +10,23 @@ export default function ContactMe() {
   }, (error) => {
       console.log(error.text);
   });
-
+  }
+  const myfun = () => {
+    Swal.fire({
+      title: 'Great',
+      text: 'Thank you for the message',
+      icon: 'success',
+      confirmButtonText: 'Cool'
+    })
   }
     return (
       <section id="Contact" className="contact--section">
         <div>
           {/* <p className="sub--title">Get In Touch</p> */}
-          <p className="text-lg">
+          <p className="text-md">
             Great to see you, Let's get in touch.
           </p>
-          <h2>Contact Me</h2>
+          <h1 className='skills--heading2'>Contact Me</h1>
           {/* <p className="text-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
           </p> */}
@@ -77,12 +85,12 @@ export default function ContactMe() {
               placeholder="Type your message..."
             />
           </label>
-          <label htmlFor="checkboc" className="checkbox--label">
+          {/* <label htmlFor="checkboc" className="checkbox--label">
             <input type="checkbox" required name="checkbox" id="checkbox" />
-            <span className="text-sm">I accept the terms</span>
-          </label>
+            <span className="text-md">I accept the terms</span>
+          </label> */}
           <div>
-            <button className="btn btn-primary contact--form--btn">SEND</button>
+            <button className="btn btn-primary contact--form--btn" onClick={myfun}>SEND</button>
           </div>
         </form>
       </section>

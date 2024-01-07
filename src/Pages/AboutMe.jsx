@@ -1,7 +1,8 @@
-import {Document, Page, pdfjs} from 'react-pdf'
-// import Shweta_Resume from './img/Shweta_Resume.pdf'
+
+import {FaEnvelope,FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
 
 const AboutMe =() => {
+  
     return (
       <section id="AboutMe" className="about--section">
         <div className="about--section--img">
@@ -22,23 +23,32 @@ const AboutMe =() => {
                  <br /> <br />
                  Apart from these, I love to read, and more often than not, you will find 
                  me with a book in my hand. Hence, the picture :)
-
-
             </p>
-            <p className="hero--section-description">
-             Email: jhashweta862@gmail.com
-             <br />
+
+            <div className="icons"> 
+                 <a href="mailto:jhashweta862@gmail.com">
+                  <FaEnvelope className='email'/>
+                   
+                  </a>
+                  <a href="https://github.com/shwet-aaa">
+                  <FaGithub className="github"/>
+                  </a>
+                  <a href ="https://www.linkedin.com/in/shweta-077b4122a/">
+                  <FaLinkedin className="linkedin"/>
+                  </a>
+                  <a href = "https://www.instagram.com/__shweta17/">
+                  <FaInstagram className="ig"/>
+                  </a>
+                  
+            <br />
+            {/* <p className="hero--section-description"> */}
              <a href="https://drive.google.com/file/d/12hRxeM8d-AudXGdIqMKQ6P9Wsv5MkDKk/view?usp=sharing" >
-              Resume: Resume.pdf
-             {/* <div className='res'>
-              <Document 
-              file = {"https://drive.google.com/drive/search?q=Resume_shweta"}
-              onLoadError={console.error}>
-                <Page index={0}/>
-              </Document>
-             </div> */}
+             <button className='btn btn-primary-resume'> View My Resume</button>
              </a> 
-            </p>
+            {/* </p> */}
+            </div>
+           
+
           </div>
         </div>
       </section>

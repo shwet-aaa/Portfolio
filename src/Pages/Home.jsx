@@ -11,12 +11,13 @@ export default function Home() {
                     <br />
                     Developer 
                     </h1>
-                        <p className="hero--section--description">
+                        <p className="home--description">
                             I am a third-year B.Tech student at IIIT Lucknow studying Computer Science and Business
                             <br /> I am very passionate about Web Development and love to read in my spare time
                             <br />To know more, click here
                             
                         </p>
+                        <br></br>
                     
                 
             </div>
